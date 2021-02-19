@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ceasarian", "Ceasarian\Ceasarian.csproj", "{72F2DCE2-86AC-43E2-B038-DF01BAB8BC30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ceasarian", "Ceasarian\Ceasarian.csproj", "{72F2DCE2-86AC-43E2-B038-DF01BAB8BC30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{57A18BA2-7A1C-4D9E-84DD-E41E3D6E94B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseString\ReverseString.csproj", "{57A18BA2-7A1C-4D9E-84DD-E41E3D6E94B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pig", "Pig\Pig.csproj", "{92BF081F-8861-4CDC-8542-D19A3A526224}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pig", "Pig\Pig.csproj", "{92BF081F-8861-4CDC-8542-D19A3A526224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour", "ConnectFour\ConnectFour.csproj", "{3A490012-C0F8-4D0D-98A8-C76B8A19E0B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{92BF081F-8861-4CDC-8542-D19A3A526224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92BF081F-8861-4CDC-8542-D19A3A526224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92BF081F-8861-4CDC-8542-D19A3A526224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A490012-C0F8-4D0D-98A8-C76B8A19E0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A490012-C0F8-4D0D-98A8-C76B8A19E0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A490012-C0F8-4D0D-98A8-C76B8A19E0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A490012-C0F8-4D0D-98A8-C76B8A19E0B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
