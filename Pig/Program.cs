@@ -53,6 +53,16 @@ namespace Pig
                     Console.WriteLine("Do you want to roll again or hold press y for yes and n for no");
                     Console.WriteLine();
                     c = Console.ReadLine();
+
+                    if (score1 >= 30)
+                    {
+                        Console.WriteLine("USER1 IS WINNER");
+                        Console.WriteLine();
+                        score1 = 0;
+                        temp = 0;
+                        score2 = 0;
+                        temp1 = 0;
+                    }
                 }
                 if(c == "n")
                 {
@@ -92,6 +102,15 @@ namespace Pig
                             Console.WriteLine("Do you want to roll again or hold press y for yes and n for no");
                             Console.WriteLine();
                             c = Console.ReadLine();
+                            if (score2 >= 30)
+                            {
+                                Console.WriteLine("USER2 IS WINNER");
+                                Console.WriteLine();
+                                score1 = 0;
+                                temp = 0;
+                                score2 = 0;
+                                temp1 = 0;
+                            }
                         }
                         if (c == "y")
                         {
@@ -103,8 +122,8 @@ namespace Pig
                     } while (c == "n");
                 }
               
-            } while (c  == "y");
+            } while (c  == "y");   
         }
     }
-        }
+  }
 
